@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import HomeCards from "./components/HomeCards";
 import JobListings from "./components/JobListings";
+import ViewAllJobs from "./components/ViewAllJobs";
 const App = () => {
   return (
     <>
@@ -9,17 +10,10 @@ const App = () => {
     <Hero title="Test Title" subtitle="This is the subtitle" />
     <HomeCards />
     <JobListings />
-
-    <section className="m-auto max-w-lg my-10 px-6">
-      <a
-        href="jobs.html"
-        className="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
-        >View All Jobs</a
-      >
-    </section>
+    <ViewAllJobs />
     </>
   )
 }
 export default App
 
-// stopped at https://youtu.be/LDB4uaJ87e0?si=0N2HTedylpQzTl7N&t=3815
+// stopped at https://youtu.be/LDB4uaJ87e0?si=mcoJWyJKBuDsosgB&t=4080
