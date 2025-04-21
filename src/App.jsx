@@ -16,4 +16,4 @@ const App = () => {
 }
 export default App
 
-// stopped at https://youtu.be/LDB4uaJ87e0?si=mcoJWyJKBuDsosgB&t=4080
+// stopped at https://youtu.be/LDB4uaJ87e0?si=itvkSF-ItyUCdBNS&t=4687
