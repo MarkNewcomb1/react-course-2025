@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <Navbar />
-    <Hero title="Test Title" subtitle="This is the subtitle" />
+    <Hero title="JavaScript exercises" subtitle="for interview prep" />
     <HomeCards />
     <JobListings />
     <ViewAllJobs />
