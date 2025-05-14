@@ -125,7 +125,7 @@ console.log("4");
           <p> "Hello, my name is undefined" 
           </p>
           <p>It's because greetFn is a variable based on user.greet, but that was originally a method on the user object.</p>
-          <p>When you call it by itself it loses its context. To fix this: either wrap it in a closure:</p>
+          <p>When you call it by itself, it loses its context. To fix this: either wrap it in a closure:</p>
             <pre id="code">
               <code className="whitespace-pre-wrap">
                 {thisAnswer1}
